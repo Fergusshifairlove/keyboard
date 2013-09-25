@@ -26,6 +26,8 @@
             <groupId>com.oracle</groupId>
             <artifactId>javafx</artifactId>
             <version>${javafx.minVersion}</version>
+            <scope>system</scope>
+            <systemPath>${java.home}/lib/jfxrt.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
