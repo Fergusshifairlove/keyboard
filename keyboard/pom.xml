@@ -14,7 +14,7 @@
     <packaging>jar</packaging>
 
     <name>keyboard</name>
-    <url>http://maven.apache.org</url>
+    <url>https://github.com/itollu/keyboard</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
