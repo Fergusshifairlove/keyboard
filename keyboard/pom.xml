@@ -4,16 +4,15 @@
     <developers>
         <developer>
             <id>itollu</id>
-            <url>http://itollu.tel</url>
             <name>Ilja Tollu</name>
+            <url>http://itollu.tel</url>
             <timezone>+4</timezone>
-            <id>itollu</id>            
         </developer>
     </developers>
       
   
     <groupId>tel.itollu.javafx.controls</groupId>
-    <artifactId>keyboard</artifactId>
+    <artifactId>screenKeyboard</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
