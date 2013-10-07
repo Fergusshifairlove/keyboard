@@ -19,6 +19,11 @@ public class HelloJavaFX extends Application
         launch(args);
     }
 
+    /**
+     * Implementation of <code>start</code> method to run JavaFX application
+     * @param primaryStage
+     * @throws Exception 
+     */
     @Override
     public void start(Stage primaryStage) throws Exception {
         primaryStage.setTitle("Моя новая кнопка");
