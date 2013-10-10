@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="-1.0" prefWidth="-1.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <VBox layoutX="0.0" layoutY="0.0" prefHeight="-1.0" prefWidth="-1.0">
+      <children>
+        <HBox fx:id="kbRowE" prefHeight="-1.0" prefWidth="-1.0">
+          <children>
+            <Button fx:id="btnE00" mnemonicParsing="false" text="~" />
+            <Button fx:id="btnE01" mnemonicParsing="false" text="1" />
+            <Button fx:id="btnE02" mnemonicParsing="false" text="2" />
+            <Button fx:id="btnE03" mnemonicParsing="false" text="3" />
+            <Button fx:id="btnE04" mnemonicParsing="false" text="4" />
+            <Button fx:id="btnE05" mnemonicParsing="false" text="5" />
+            <Button fx:id="btnE06" mnemonicParsing="false" text="6" />
+            <Button fx:id="btnE07" mnemonicParsing="false" text="7" />
+            <Button fx:id="btnE08" mnemonicParsing="false" text="8" />
+            <Button fx:id="btnE09" mnemonicParsing="false" text="9" />
+            <Button fx:id="btnE10" mnemonicParsing="false" text="0" />
+            <Button fx:id="btnE11" mnemonicParsing="false" text="-" />
+            <Button fx:id="btnE12" mnemonicParsing="false" text="=" />
+            <Button fx:id="btnE13" mnemonicParsing="false" text="" />
+            <Button fx:id="btnE14" mnemonicParsing="false" text="⌫_" />
+          </children>
+        </HBox>
+        <HBox fx:id="kbRowD" prefHeight="-1.0" prefWidth="-1.0">
+          <children>
+            <Button fx:id="btnD00" mnemonicParsing="false" text="Tab_" />
+            <Button fx:id="btnD01" mnemonicParsing="false" text="Q" />
+            <Button fx:id="btnD02" mnemonicParsing="false" text="W" />
+            <Button fx:id="btnD03" mnemonicParsing="false" text="E" />
+            <Button fx:id="btnD04" mnemonicParsing="false" text="R" />
+            <Button fx:id="btnD05" mnemonicParsing="false" text="T" />
+            <Button fx:id="btnD06" mnemonicParsing="false" text="Y" />
+            <Button fx:id="btnD07" mnemonicParsing="false" text="U" />
+            <Button fx:id="btnD08" mnemonicParsing="false" text="I" />
+            <Button fx:id="btnD09" mnemonicParsing="false" text="O" />
+            <Button fx:id="btnD10" mnemonicParsing="false" text="P" />
+            <Button fx:id="btnD11" mnemonicParsing="false" text="[" />
+            <Button fx:id="btnD12" mnemonicParsing="false" text="]" />
+            <Button fx:id="btnD13" mnemonicParsing="false" text="\\___" />
+          </children>
+        </HBox>
+        <HBox fx:id="kbRowC" prefHeight="-1.0" prefWidth="-1.0">
+          <children>
+            <Button fx:id="btnC00" mnemonicParsing="false" text="C. Lck_" />
+            <Button fx:id="btnC01" mnemonicParsing="false" text="A" />
+            <Button fx:id="btnC02" mnemonicParsing="false" text="S" />
+            <Button fx:id="btnC03" mnemonicParsing="false" text="D" />
+            <Button fx:id="btnC04" mnemonicParsing="false" text="F" />
+            <Button fx:id="btnC05" mnemonicParsing="false" text="G" />
+            <Button fx:id="btnC06" mnemonicParsing="false" text="H" />
+            <Button fx:id="btnC07" mnemonicParsing="false" text="J" />
+            <Button fx:id="btnC08" mnemonicParsing="false" text="K" />
+            <Button fx:id="ctnC09" mnemonicParsing="false" text="L" />
+            <Button fx:id="btnC10" mnemonicParsing="false" text=";" />
+            <Button fx:id="btnC11" mnemonicParsing="false" text="'" />
+            <Button fx:id="btnC13" mnemonicParsing="false" text="Enter___." />
+          </children>
+        </HBox>
+        <HBox fx:id="kbRowB" prefHeight="-1.0" prefWidth="-1.0">
+          <children>
+            <Button fx:id="btnB99" mnemonicParsing="false" text="Shift____" />
+            <Button fx:id="btnB01" mnemonicParsing="false" text="Z" />
+            <Button fx:id="btnB02" mnemonicParsing="false" text="X" />
+            <Button fx:id="btnB03" mnemonicParsing="false" text="C" />
+            <Button fx:id="btnB04" mnemonicParsing="false" text="V" />
+            <Button fx:id="btnB05" mnemonicParsing="false" text="B" />
+            <Button fx:id="btnB06" mnemonicParsing="false" text="N" />
+            <Button fx:id="btnB07" mnemonicParsing="false" text="M" />
+            <Button fx:id="btnB08" mnemonicParsing="false" text="&lt;" />
+            <Button fx:id="btnB09" mnemonicParsing="false" text="&gt;" />
+            <Button fx:id="btnB10" mnemonicParsing="false" text="?" />
+            <Button fx:id="btnB12" mnemonicParsing="false" text="Shift____." />
+          </children>
+        </HBox>
+        <HBox fx:id="kbRowA" prefHeight="-1.0" prefWidth="-1.0">
+          <children>
+            <Button fx:id="btnA03" mnemonicParsing="false" text="____________________________________Space.____________________________________" />
+          </children>
+        </HBox>
+      </children>
+    </VBox>
+  </children>
+</AnchorPane>
+
