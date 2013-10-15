@@ -1,3 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!-- FXML markup for Key custom control that will represent buttons of ScreenKeyboard custom control-->
 <fx:root type="javafx.scene.control.Button" xmlns="http://javafx.com/javafx/2.2" xmlns:fx="http://javafx.com/fxml"/>
