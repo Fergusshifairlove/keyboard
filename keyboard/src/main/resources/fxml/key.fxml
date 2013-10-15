@@ -1,4 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<fx:root type="javafx.scene.control.Button" xmlns:fx="http://javafx.com/fxml" xmlns="http://javafx.com/javafx/2.2"
-         fx:controller="tel.itollu.javafx.controls.screenKeyboard.KeyController"/>
+<fx:root type="javafx.scene.control.Button" xmlns="http://javafx.com/javafx/2.2" xmlns:fx="http://javafx.com/fxml"/>
