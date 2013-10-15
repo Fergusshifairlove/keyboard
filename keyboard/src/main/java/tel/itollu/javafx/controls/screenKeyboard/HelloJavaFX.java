@@ -1,12 +1,9 @@
 package tel.itollu.javafx.controls.screenKeyboard;
 
 import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.scene.Scene;
-import javafx.stage.Stage;
 import javafx.scene.layout.StackPane;
-import javafx.scene.control.Button;
+import javafx.stage.Stage;
 
 /**
  * Main JavaFx class
@@ -26,17 +23,11 @@ public class HelloJavaFX extends Application
      */
     @Override
     public void start(Stage primaryStage) throws Exception {
-        primaryStage.setTitle("Моя новая кнопка");
-        Button myShinyNewButton = new Button();
-        myShinyNewButton.setText("Нажми меня!");
-        myShinyNewButton.setOnAction(new EventHandler<ActionEvent>(){
-            public void handle(ActionEvent event) {
-                System.out.println("Hello JavaFX!");
-            }            
-        });
-        
+        primaryStage.setTitle("Моя экранная клавиатура");
+        Keyboard myKeyboard = new Keyboard();
+
         StackPane root = new StackPane();
-        root.getChildren().add(myShinyNewButton);
+        root.getChildren().add(myKeyboard);
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }
