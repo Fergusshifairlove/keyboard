@@ -1,74 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!-- This comment was added to test issue tracking system -->
 <!-- FXML markup for ScreenKeyboard custom control -->
 <?import javafx.scene.layout.*?>
 <?import tel.itollu.javafx.controls.screenKeyboard.*?>
 <fx:root type="javafx.scene.layout.VBox" layoutX="0.0" layoutY="0.0" xmlns:fx="http://javafx.com/fxml"
          xmlns="http://javafx.com/javafx/2.2">
-        <HBox fx:id="kbRowE">
-            <Key fx:id="btnE00" text="~"/>
-            <Key fx:id="btnE01" text="1"/>
-            <Key fx:id="btnE02" text="2"/>
-            <Key fx:id="btnE03" text="3"/>
-            <Key fx:id="btnE04" text="4"/>
-            <Key fx:id="btnE05" text="5"/>
-            <Key fx:id="btnE06" text="6"/>
-            <Key fx:id="btnE07" text="7"/>
-            <Key fx:id="btnE08" text="8"/>
-            <Key fx:id="btnE09" text="9"/>
-            <Key fx:id="btnE10" text="0"/>
-            <Key fx:id="btnE11" text="-"/>
-            <Key fx:id="btnE12" text="="/>
-            <Key fx:id="btnE13" text=""/>
-            <Key fx:id="btnE14" text="⌫_"/>
-        </HBox>
-        <HBox fx:id="kbRowD" prefHeight="-1.0" prefWidth="-1.0">
-            <Key fx:id="btnD00" text="Tab_"/>
-            <Key fx:id="btnD01" text="Q"/>
-            <Key fx:id="btnD02" text="W"/>
-            <Key fx:id="btnD03" text="E"/>
-            <Key fx:id="btnD04" text="R"/>
-            <Key fx:id="btnD05" text="T"/>
-            <Key fx:id="btnD06" text="Y"/>
-            <Key fx:id="btnD07" text="U"/>
-            <Key fx:id="btnD08" text="I"/>
-            <Key fx:id="btnD09" text="O"/>
-            <Key fx:id="btnD10" text="P"/>
-            <Key fx:id="btnD11" text="["/>
-            <Key fx:id="btnD12" text="]"/>
-            <Key fx:id="btnD13" text="\\___"/>
-        </HBox>
-        <HBox fx:id="kbRowC" prefHeight="-1.0" prefWidth="-1.0">
-            <Key fx:id="btnC00" text="C. Lck_"/>
-            <Key fx:id="btnC01" text="A"/>
-            <Key fx:id="btnC02" text="S"/>
-            <Key fx:id="btnC03" text="D"/>
-            <Key fx:id="btnC04" text="F"/>
-            <Key fx:id="btnC05" text="G"/>
-            <Key fx:id="btnC06" text="H"/>
-            <Key fx:id="btnC07" text="J"/>
-            <Key fx:id="btnC08" text="K"/>
-            <Key fx:id="ctnC09" text="L"/>
-            <Key fx:id="btnC10" text=";"/>
-            <Key fx:id="btnC11" text="'"/>
-            <Key fx:id="btnC13" text="Enter___."/>
-        </HBox>
-        <HBox fx:id="kbRowB" prefHeight="-1.0" prefWidth="-1.0">
-            <Key fx:id="btnB99" text="Shift____"/>
-            <Key fx:id="btnB01" text="Z"/>
-            <Key fx:id="btnB02" text="X"/>
-            <Key fx:id="btnB03" text="C"/>
-            <Key fx:id="btnB04" text="V"/>
-            <Key fx:id="btnB05" text="B"/>
-            <Key fx:id="btnB06" text="N"/>
-            <Key fx:id="btnB07" text="M"/>
-            <Key fx:id="btnB08" text="&lt;"/>
-            <Key fx:id="btnB09" text="&gt;"/>
-            <Key fx:id="btnB10" text="?"/>
-            <Key fx:id="btnB12" text="Shift____."/>
-        </HBox>
-        <HBox fx:id="kbRowA" prefHeight="-1.0" prefWidth="-1.0">
-            <Key fx:id="btnA03"
-                 text="________________________________Space________________________________"/>
-        </HBox>
+    <HBox fx:id="kbRowE">
+        <Key fx:id="btnE00" text="~"/>
+        <Key fx:id="btnE01" text="1"/>
+        <Key fx:id="btnE02" text="2"/>
+        <Key fx:id="btnE03" text="3"/>
+        <Key fx:id="btnE04" text="4"/>
+        <Key fx:id="btnE05" text="5"/>
+        <Key fx:id="btnE06" text="6"/>
+        <Key fx:id="btnE07" text="7"/>
+        <Key fx:id="btnE08" text="8"/>
+        <Key fx:id="btnE09" text="9"/>
+        <Key fx:id="btnE10" text="0"/>
+        <Key fx:id="btnE11" text="-"/>
+        <Key fx:id="btnE12" text="="/>
+        <Key fx:id="btnE13" text=""/>
+        <Key fx:id="btnE14" text="⌫_"/>
+    </HBox>
+    <HBox fx:id="kbRowD" prefHeight="-1.0" prefWidth="-1.0">
+        <Key fx:id="btnD00" text="Tab_"/>
+        <Key fx:id="btnD01" text="Q"/>
+        <Key fx:id="btnD02" text="W"/>
+        <Key fx:id="btnD03" text="E"/>
+        <Key fx:id="btnD04" text="R"/>
+        <Key fx:id="btnD05" text="T"/>
+        <Key fx:id="btnD06" text="Y"/>
+        <Key fx:id="btnD07" text="U"/>
+        <Key fx:id="btnD08" text="I"/>
+        <Key fx:id="btnD09" text="O"/>
+        <Key fx:id="btnD10" text="P"/>
+        <Key fx:id="btnD11" text="["/>
+        <Key fx:id="btnD12" text="]"/>
+        <Key fx:id="btnD13" text="\\___"/>
+    </HBox>
+    <HBox fx:id="kbRowC" prefHeight="-1.0" prefWidth="-1.0">
+        <Key fx:id="btnC00" text="C. Lck_"/>
+        <Key fx:id="btnC01" text="A"/>
+        <Key fx:id="btnC02" text="S"/>
+        <Key fx:id="btnC03" text="D"/>
+        <Key fx:id="btnC04" text="F"/>
+        <Key fx:id="btnC05" text="G"/>
+        <Key fx:id="btnC06" text="H"/>
+        <Key fx:id="btnC07" text="J"/>
+        <Key fx:id="btnC08" text="K"/>
+        <Key fx:id="ctnC09" text="L"/>
+        <Key fx:id="btnC10" text=";"/>
+        <Key fx:id="btnC11" text="'"/>
+        <Key fx:id="btnC13" text="Enter___."/>
+    </HBox>
+    <HBox fx:id="kbRowB" prefHeight="-1.0" prefWidth="-1.0">
+        <Key fx:id="btnB99" text="Shift____"/>
+        <Key fx:id="btnB01" text="Z"/>
+        <Key fx:id="btnB02" text="X"/>
+        <Key fx:id="btnB03" text="C"/>
+        <Key fx:id="btnB04" text="V"/>
+        <Key fx:id="btnB05" text="B"/>
+        <Key fx:id="btnB06" text="N"/>
+        <Key fx:id="btnB07" text="M"/>
+        <Key fx:id="btnB08" text="&lt;"/>
+        <Key fx:id="btnB09" text="&gt;"/>
+        <Key fx:id="btnB10" text="?"/>
+        <Key fx:id="btnB12" text="Shift____."/>
+    </HBox>
+    <HBox fx:id="kbRowA" prefHeight="-1.0" prefWidth="-1.0">
+        <Key fx:id="btnA03"
+             text="________________________________Space________________________________"/>
+    </HBox>
 </fx:root>
