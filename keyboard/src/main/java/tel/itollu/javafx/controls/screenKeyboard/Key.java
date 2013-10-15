@@ -1,27 +1,31 @@
 package tel.itollu.javafx.controls.screenKeyboard;
 
-import javafx.scene.control.Button;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.control.Button;
+
+import java.io.IOException;
 
 
 public class Key extends Button {
     private final String keyFxmlFile = "/fxml/Key.fxml";
 
-    private String label;
-    private int scanCode;
-
-    public Key() {
+    public Key() throws IOException {
         super();
+        loadFxmlMarkup();
+        this.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent actionEvent) {
+                System.out.println("Key pressed!");
+            }
+        });
     }
 
-    public Key(String label, int scanCode) {
-        super();
-        this.label = label;
-        this.scanCode = scanCode;
-    }
-
-    private void loadFxmlMarkup() {
+    private void loadFxmlMarkup() throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource(this.keyFxmlFile));
+        loader.setRoot(this);
+        loader.setController(this);
+        loader.load();
     }
-
 }
