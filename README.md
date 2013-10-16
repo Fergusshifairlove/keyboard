@@ -1,4 +1,4 @@
-keyboard
+KeyboardFX
 ========
 
 Screen keyboard control for JavaFX 8
