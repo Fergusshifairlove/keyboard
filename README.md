@@ -10,3 +10,5 @@ Although it is possible to build JavaFX 2 project with Maven, it requires workin
 Mentioned issue is solved in JDK 1.8 and JavaFX 8 which are in Early Access state as of 8 of Ocrober, 2013.
 
 [JDK 8 Early Access Releases](http://jdk8.java.net/download.html)
+
+Test: see #8
