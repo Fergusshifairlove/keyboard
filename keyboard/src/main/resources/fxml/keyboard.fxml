@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import tel.itollu.javafx.controls.screenKeyboard.*?>
 <fx:root type="javafx.scene.layout.VBox" layoutX="0.0" layoutY="0.0" xmlns:fx="http://javafx.com/fxml"
-         xmlns="http://javafx.com/javafx/2.2">
+         xmlns="http://javafx.com/javafx/">
     <HBox fx:id="kbRowE">
         <Key fx:id="btnE00" text="~"/>
         <Key fx:id="btnE01" text="1"/>

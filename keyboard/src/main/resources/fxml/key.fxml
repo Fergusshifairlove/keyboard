@@ -2,4 +2,4 @@
 
 <!-- Comment for Test issue-2. Trying to use commit closing issue GitHub feature -->
 <!-- FXML markup for Key custom control that will represent buttons of ScreenKeyboard custom control-->
-<fx:root type="javafx.scene.control.Button" xmlns="http://javafx.com/javafx/2.2" xmlns:fx="http://javafx.com/fxml"/>
+<fx:root type="javafx.scene.control.Button" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml"/>
